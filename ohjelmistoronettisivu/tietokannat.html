@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tietokannat – tehtävät</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="container"><h1>Opiskelijan tehtäväportaali</h1><p>Kurssin tehtävät ja palautuspäivät</p></div></header>
+  <main class="container">
+    <a class="back-link" href="index.html">← Takaisin kurssivalintaan</a>
+    <section class="panel" id="course-content" data-course-id="tietokannat">
+      <h2 id="course-name">Tietokannat</h2>
+      <p class="note">Tehtävät ja palautuspäivät ovat harjoittelua varten luotuja esimerkkitietoja.</p>
+      <div class="table-wrap">
+        <table id="tasks-table">
+          <thead><tr><th scope="col">Tehtävä-ID</th><th scope="col">Tehtävä</th><th scope="col">Deadline</th><th scope="col">Tila</th></tr></thead>
+          <tbody id="tasks-body">
+          <tr class="task-row" data-task-id="DB-101"><td class="task-id">DB-101</td><td class="task-name">SELECT- ja WHERE-harjoitukset</td><td class="task-deadline"><time datetime="2026-10-30">2026-10-30</time></td><td class="task-status">Kesken</td></tr>
+          <tr class="task-row" data-task-id="DB-102"><td class="task-id">DB-102</td><td class="task-name">JOIN-kyselyiden harjoittelu</td><td class="task-deadline"><time datetime="2026-11-09">2026-11-09</time></td><td class="task-status">Ei aloitettu</td></tr>
+          <tr class="task-row" data-task-id="DB-103"><td class="task-id">DB-103</td><td class="task-name">Tietokannan normalisointi</td><td class="task-deadline"><time datetime="2026-11-18">2026-11-18</time></td><td class="task-status">Ei aloitettu</td></tr>
+          <tr class="task-row" data-task-id="DB-104"><td class="task-id">DB-104</td><td class="task-name">SQL-lopputehtävä</td><td class="task-deadline"><time datetime="2026-12-02">2026-12-02</time></td><td class="task-status">Ei aloitettu</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="container">Student Task Manager Robot – testisivusto</footer>
+</body>
+</html>

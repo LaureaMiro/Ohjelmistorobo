@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opiskelijan tehtäväportaali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="container"><h1>Opiskelijan tehtäväportaali</h1><p>Valitse kurssi nähdäksesi tehtävät ja palautuspäivät</p></div></header>
+  <main class="container">
+    <h2>Kurssit</h2>
+    <p>Täällä näet kolmen kurssin tehtävät ja deadlinet.</p>
+    <nav id="course-list" class="course-grid" aria-label="Kurssit">
+      <article class="course-card" data-course-id="ohjelmistorobotiikka">
+        <h3>Ohjelmistorobotiikka</h3><p>Robotit ja prosessien automatisointi.</p>
+        <a id="course-link-1" href="ohjelmistorobotiikka.html">Näytä tehtävät →</a>
+      </article>
+      <article class="course-card" data-course-id="web-ohjelmointi">
+        <h3>Web-ohjelmointi</h3><p>HTML, CSS ja JavaScript.</p>
+        <a id="course-link-2" href="web-ohjelmointi.html">Näytä tehtävät →</a>
+      </article>
+      <article class="course-card" data-course-id="tietokannat">
+        <h3>Tietokannat</h3><p>SQL-kyselyt ja tietokantojen suunnittelu.</p>
+        <a id="course-link-3" href="tietokannat.html">Näytä tehtävät →</a>
+      </article>
+    </nav>
+  </main>
+  <footer class="container">Tämä verkkosivusto on luotu ohjelmistorobotiikan kurssiprojektia varten. Sivusto toimii ohjelmistorobotin testiympäristönä, ja sen sisältämät kurssit, tehtävät sekä palautuspäivät ovat kuvitteellisia. Sivuston suunnittelussa ja toteutuksessa on hyödynnetty tekoälyä.</footer>
+</body>
+</html>
